@@ -120,9 +120,6 @@ USE_TZ = True
 STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, '/djangoone/staticfiles')
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),  # If you have extra static files
-]
 
 
 # Default primary key field type
